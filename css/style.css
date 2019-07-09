@@ -1,0 +1,165 @@
+/* start font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* end font */
+
+body {
+    background-color:white;
+    color: black;
+}
+
+.judul-utama{
+    color: aqua;
+    font-size: 30px;
+}
+
+.p1{
+    font-style: italic;
+}
+
+/* start debug */
+.bg-blue {
+    background-color: blue;
+}
+.bg-red {
+    background-color: red;
+}
+/* end debug */
+
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow; auto;
+    width: 90%
+}
+/* end container */
+
+/* start container-full */
+.container-full {
+    margin: 10px auto;
+    overflow; auto;
+    width: 100%
+}
+/* end container-full */
+
+/* start logo */
+.logo{
+    text-align: center;
+}
+/* end logo */
+
+/* start anchor/hyperlink */
+a:link,
+a:visited {
+    color: #0366d6;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* end anchor/hyperlink */
+
+/* start menu primer */
+.menu-primer ul {
+    background-color: #333333;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba (0,0,0,.2);
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color: #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+}
+/* end menu primer */
+
+/* start heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400px;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+/* end heading */
+
+/* start jumbotron */
+.jumbotron {
+    background-color: #ffffff;
+    border:  1px solid #eeecef;
+    border-radius: 4px;
+    padding:  20px 0;
+}
+/* end jumbotron */
+
+/* start menu sekunder */
+.menu-sekunder {
+    background-color:#f6f8fa;
+    border-bottom: #eeecef;
+    border-top: #eeecef;
+    overflow: auto;
+    padding: 20px 0;
+}
+
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul{
+    padding: 0;
+}
+
+.menu-sekunder li{
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+
+.menu-sekunder li img{
+    vertical-align: middle;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+
+.menu-sekunder-one{
+    width: 40%;
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three{
+    width: 30%;
+}
+/* end menu sekunder */
+
